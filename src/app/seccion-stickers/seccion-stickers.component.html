@@ -1,0 +1,18 @@
+<div class="inicio">
+    <h1>Stickers Trending</h1>
+    <p>The most popular stickers of the world</p>
+</div>
+
+<div class="stickers">
+    <div class="sticker" *ngFor="let sticker of stickers">
+        <img [src]="sticker.images.downsized.url" alt="Image">
+    </div>
+</div>
+
+<!--<div class="card" style="width: 18rem;" *ngFor="let sticker of stickers">
+    <img [src]="sticker.images.downsized.url" alt="Image">
+    <div class="card-body">
+      <h5 class="card-title">title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>-->

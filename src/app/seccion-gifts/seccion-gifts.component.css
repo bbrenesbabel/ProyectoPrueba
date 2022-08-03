@@ -1,0 +1,24 @@
+.inicio{
+    background-color: cadetblue;
+    text-align: center;
+}
+.inicio h1{
+    padding-top: 1%;
+}
+
+.inicio p{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: large;
+}
+
+.gifts{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100px;
+    padding-left: 15%;
+}
+
+.gif img{
+    max-width: 250px;
+}
